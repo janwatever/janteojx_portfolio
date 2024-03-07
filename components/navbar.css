@@ -1,0 +1,112 @@
+.navbar-navbar {
+  height: 106px;
+  position: relative;
+  background-color: #e4eaea;
+}
+.navbar-logo {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navbar-navlink {
+  width: var(--dl-size-size-xlarge);
+  text-align: left;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.navbar-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.navbar-text3 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.navbar-container {
+  flex: 0 0 auto;
+  width: 5%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 60px;
+  display: flex;
+  align-items: flex-start;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.navbar-link {
+  display: contents;
+}
+.navbar-icon {
+  width: 35px;
+  height: auto;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-link1 {
+  display: contents;
+}
+.navbar-image {
+  width: 35px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-link2 {
+  display: contents;
+}
+.navbar-icon2 {
+  width: 30px;
+  height: auto;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-link3 {
+  display: contents;
+}
+.navbar-image1 {
+  width: 30px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.navbar-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar-text5 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navbar-navlink1 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navbar-text6 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+
+
+@media(max-width: 767px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-icon4 {
+    fill: var(--dl-color-scheme-green100);
+  }
+}
