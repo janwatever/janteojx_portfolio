@@ -1133,6 +1133,14 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: #c5e9e1;
 }
+.ttt-project-breakdown-feature-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .ttt-project-breakdown-title {
   width: auto;
   height: auto;
@@ -1421,6 +1429,7 @@
     height: 100%;
   }
   .ttt-project-breakdown-container02 {
+    flex: 0;
     width: auto;
     flex-direction: column;
   }
@@ -1435,7 +1444,8 @@
     justify-content: center;
   }
   .ttt-project-breakdown-container04 {
-    width: 478px;
+    flex: 0;
+    width: auto;
     height: auto;
     position: static;
     flex-wrap: wrap;
@@ -1451,6 +1461,16 @@
     margin-left: var(--dl-space-space-oneandhalfunits);
     margin-right: var(--dl-space-space-oneandhalfunits);
   }
+  .ttt-project-breakdown-feature-container {
+    flex: 0;
+    width: auto;
+    height: auto;
+    align-self: center;
+    align-items: center;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    justify-content: flex-start;
+  }
   .ttt-project-breakdown-title {
     width: auto;
     align-self: center;
@@ -1458,20 +1478,28 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
   .ttt-project-breakdown-container05 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    width: 100%;
+    align-self: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .ttt-project-breakdown-container07 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    width: 100%;
+    align-self: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .ttt-project-breakdown-container09 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    width: 100%;
+    align-self: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .ttt-project-breakdown-container11 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    width: 100%;
+    align-self: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .ttt-project-breakdown-container13 {
     width: auto;
@@ -1506,25 +1534,28 @@
     width: auto;
     height: auto;
     align-self: center;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
   }
   .ttt-project-breakdown-title2 {
     width: auto;
   }
   .ttt-project-breakdown-container14 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .ttt-project-breakdown-container16 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    align-self: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .ttt-project-breakdown-container18 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .ttt-project-breakdown-container20 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .ttt-project-breakdown-container22 {
     width: 100%;
