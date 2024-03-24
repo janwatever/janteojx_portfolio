@@ -82,7 +82,14 @@
 }
 
 
+.footer-root-class-name2 {
+  max-width: auto;
+}
 
+
+.footer-root-class-name5 {
+  max-width: auto;
+}
 @media(max-width: 991px) {
   .footer-footer {
     flex-direction: column;
@@ -113,6 +120,10 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .footer-root-class-name1 {
+    height: var(--dl-size-size-large);
+    max-width: var(--dl-size-size-maxwidth);
+  }
+  .footer-root-class-name3 {
     height: var(--dl-size-size-large);
     max-width: var(--dl-size-size-maxwidth);
   }
