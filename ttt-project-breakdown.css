@@ -1142,14 +1142,64 @@
   margin-top: var(--dl-space-space-oneandhalfunits);
   font-weight: 700;
 }
+.ttt-project-breakdown-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.ttt-project-breakdown-bullet-container {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ttt-project-breakdown-icon {
+  width: 24px;
+  height: 24px;
+}
+.ttt-project-breakdown-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.ttt-project-breakdown-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.ttt-project-breakdown-icon06 {
+  width: 24px;
+  height: 24px;
+}
+.ttt-project-breakdown-icon08 {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+.ttt-project-breakdown-icon10 {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+.ttt-project-breakdown-description-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 .ttt-project-breakdown-description {
   width: auto;
   height: 100%;
   align-self: flex-start;
   line-height: 1.5;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: 0px;
 }
-.ttt-project-breakdown-container05 {
+.ttt-project-breakdown-container06 {
   width: 1031px;
   height: auto;
   display: flex;
@@ -1161,7 +1211,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.ttt-project-breakdown-container06 {
+.ttt-project-breakdown-stats-container {
   flex: 0 0 auto;
   width: 50%;
   height: auto;
@@ -1205,7 +1255,7 @@
   font-style: normal;
   font-weight: 700;
 }
-.ttt-project-breakdown-container07 {
+.ttt-project-breakdown-constraints-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1223,13 +1273,64 @@
   font-weight: 700;
   margin-bottom: 0px;
 }
-.ttt-project-breakdown-description2 {
+.ttt-project-breakdown-container07 {
+  flex: 1;
   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.ttt-project-breakdown-bullet-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ttt-project-breakdown-icon12 {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.ttt-project-breakdown-icon14 {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.ttt-project-breakdown-icon16 {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.ttt-project-breakdown-icon18 {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.ttt-project-breakdown-icon20 {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+  align-self: center;
+}
+.ttt-project-breakdown-description-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ttt-project-breakdown-description2 {
+  width: auto;
   height: 100%;
   align-self: flex-start;
-  margin-top: var(--dl-space-space-halfunit);
   line-height: 1.5;
-  margin-bottom: var(--dl-space-space-halfunit);
 }
 .ttt-project-breakdown-container08 {
   width: var(--dl-size-size-maxwidth);
@@ -1308,21 +1409,47 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
+  .ttt-project-breakdown-bullet-container {
+    flex: 0;
+    width: auto;
+    height: 100%;
+    align-items: flex-start;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .ttt-project-breakdown-icon04 {
+    opacity: 0;
+  }
+  .ttt-project-breakdown-icon08 {
+    opacity: 0;
+  }
+  .ttt-project-breakdown-icon10 {
+    opacity: 1;
+  }
+  .ttt-project-breakdown-description-container {
+    flex: 1;
+    width: auto;
+    height: auto;
+  }
   .ttt-project-breakdown-description {
     width: auto;
     align-self: center;
+    margin-top: 0px;
     line-height: 1.5;
-    padding-left: var(--dl-space-space-twounits);
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
     padding-right: var(--dl-space-space-twounits);
   }
-  .ttt-project-breakdown-container05 {
+  .ttt-project-breakdown-container06 {
     width: auto;
     margin-left: 0;
     margin-right: 0;
     flex-direction: column;
   }
-  .ttt-project-breakdown-container06 {
-    width: 447px;
+  .ttt-project-breakdown-stats-container {
+    width: 100%;
     align-self: center;
     margin-top: var(--dl-space-space-unit);
     align-items: center;
@@ -1342,9 +1469,9 @@
   .ttt-project-breakdown-description1 {
     width: auto;
     align-self: flex-start;
-    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-left: 0px;
   }
-  .ttt-project-breakdown-container07 {
+  .ttt-project-breakdown-constraints-container {
     width: auto;
     height: auto;
     align-self: center;
@@ -1352,11 +1479,46 @@
   .ttt-project-breakdown-title2 {
     width: auto;
   }
+  .ttt-project-breakdown-container07 {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+  .ttt-project-breakdown-bullet-container1 {
+    width: auto;
+    height: 100%;
+    align-self: flex-start;
+    align-items: center;
+    padding-left: var(--dl-space-space-twounits);
+    justify-content: flex-start;
+  }
+  .ttt-project-breakdown-icon12 {
+    align-self: flex-start;
+  }
+  .ttt-project-breakdown-icon14 {
+    align-self: flex-start;
+  }
+  .ttt-project-breakdown-icon16 {
+    align-self: flex-start;
+  }
+  .ttt-project-breakdown-icon18 {
+    opacity: 0;
+    align-self: flex-start;
+  }
+  .ttt-project-breakdown-icon20 {
+    opacity: 1;
+    align-self: flex-start;
+  }
+  .ttt-project-breakdown-description-container1 {
+    flex: 1;
+    width: 100%;
+  }
   .ttt-project-breakdown-description2 {
     width: auto;
     align-self: center;
-    margin-right: 0px;
-    padding-left: var(--dl-space-space-twounits);
+    line-height: 1.5;
+    padding-left: 0px;
     padding-right: var(--dl-space-space-twounits);
   }
   .ttt-project-breakdown-container08 {
