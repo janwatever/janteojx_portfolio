@@ -1312,8 +1312,8 @@
     width: auto;
     align-self: center;
     line-height: 1.5;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
   .ttt-project-breakdown-container05 {
     width: auto;
@@ -1326,6 +1326,10 @@
     align-self: center;
     margin-top: var(--dl-space-space-unit);
     align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
     justify-content: center;
   }
   .ttt-project-breakdown-title1 {
@@ -1351,8 +1355,9 @@
   .ttt-project-breakdown-description2 {
     width: auto;
     align-self: center;
-    margin-right: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-oneandhalfunits);
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
   .ttt-project-breakdown-container08 {
     width: 100%;
@@ -1364,6 +1369,7 @@
     width: 100%;
   }
   .ttt-project-breakdown-image1 {
+    flex: 1;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
