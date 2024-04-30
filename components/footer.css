@@ -90,6 +90,9 @@
 .footer-root-class-name5 {
   max-width: auto;
 }
+.footer-root-class-name6 {
+  max-width: auto;
+}
 @media(max-width: 991px) {
   .footer-footer {
     flex-direction: column;

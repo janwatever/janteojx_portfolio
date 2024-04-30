@@ -4,18 +4,18 @@
   align-items: center;
   flex-direction: row;
 }
-.navigation-links-link {
+.navigation-links-navlink {
   font-style: normal;
   font-weight: 600;
   text-decoration: none;
 }
-.navigation-links-link1 {
+.navigation-links-link {
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.navigation-links-link2 {
+.navigation-links-link1 {
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -35,30 +35,30 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-link {
+  .navigation-links-navlink {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link1 {
+  .navigation-links-link {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link2 {
+  .navigation-links-link1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
+  .navigation-links-navlink {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+  }
   .navigation-links-link {
     width: 100%;
     align-self: center;
     text-align: center;
   }
   .navigation-links-link1 {
-    width: 100%;
-    align-self: center;
-    text-align: center;
-  }
-  .navigation-links-link2 {
     width: 100%;
     align-self: center;
     text-align: center;
