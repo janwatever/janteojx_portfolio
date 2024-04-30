@@ -747,6 +747,7 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
 }
 .home-image {
@@ -916,6 +917,7 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
   justify-content: flex-start;
 }
@@ -1088,6 +1090,7 @@
   height: 100%;
   display: flex;
   align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
   justify-content: center;
 }
 .home-image2 {
@@ -1096,6 +1099,7 @@
   height: 100%;
   align-self: center;
   object-fit: cover;
+  margin-left: 0px;
 }
 .home-container10 {
   flex: 0 0 auto;
