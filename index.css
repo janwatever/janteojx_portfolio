@@ -879,7 +879,7 @@
 .home-navlink {
   color: var(--dl-color-scheme-yellow20);
   width: 217px;
-  align-self: center;
+  align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
@@ -896,7 +896,7 @@
 .home-link {
   color: var(--dl-color-theme-base);
   width: 217px;
-  align-self: center;
+  align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
@@ -1053,7 +1053,7 @@
   fill: var(--dl-color-theme-neongreen);
   color: var(--dl-color-theme-neongreen);
   width: 217px;
-  align-self: center;
+  align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
@@ -1073,7 +1073,7 @@
   fill: var(--dl-color-theme-neongreen);
   color: var(--dl-color-theme-neongreen);
   width: 217px;
-  align-self: center;
+  align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
@@ -1201,7 +1201,7 @@
 .home-button13 {
   color: var(--dl-color-scheme-yellow20);
   width: 217px;
-  align-self: center;
+  align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
@@ -1212,7 +1212,7 @@
 .home-link2 {
   color: var(--dl-color-theme-base);
   width: 217px;
-  align-self: center;
+  align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
@@ -1442,13 +1442,8 @@
     position: relative;
   }
   .home-image {
-    top: 0px;
     flex: 0;
-    left: 0px;
-    right: 0px;
-    width: auto;
-    margin: auto;
-    position: absolute;
+    width: 100%;
     padding-left: 0px;
   }
   .home-image1 {
@@ -1456,13 +1451,17 @@
     flex: 0;
     left: 0px;
     right: 0px;
-    width: auto;
+    width: 100%;
     margin: auto;
     position: absolute;
     align-self: center;
     padding-left: 0px;
   }
+  .home-container07 {
+    margin-left: var(--dl-space-space-oneandhalfunits);
+  }
   .home-container09 {
+    width: 55%;
     position: relative;
   }
   .home-image2 {
@@ -1470,7 +1469,7 @@
     flex: 0;
     left: 0px;
     right: 0px;
-    width: auto;
+    width: 100%;
     margin: auto;
     position: absolute;
   }
@@ -1489,11 +1488,35 @@
   .home-image1 {
     width: 100%;
   }
+  .home-container07 {
+    margin-left: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-text27 {
+    margin-left: 0px;
+  }
+  .home-container08 {
+    margin-left: 0px;
+  }
+  .home-text31 {
+    margin-left: 0px;
+  }
   .home-image2 {
     left: 0px;
     right: 0px;
     width: 100%;
     margin: auto;
+  }
+  .home-container10 {
+    margin-left: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-text36 {
+    margin-left: 0px;
+  }
+  .home-button11 {
+    margin-left: 0px;
+  }
+  .home-text39 {
+    padding-left: 0px;
   }
 }
 @media(max-width: 991px) {
@@ -1685,6 +1708,12 @@
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
+  .home-navlink {
+    align-self: center;
+  }
+  .home-link {
+    align-self: center;
+  }
   .home-container-umlaut {
     flex: auto;
     width: 100%;
@@ -1741,6 +1770,12 @@
   }
   .home-text31 {
     width: auto;
+  }
+  .home-navlink1 {
+    align-self: center;
+  }
+  .home-link1 {
+    align-self: center;
   }
   .home-container-dungeon-roll {
     flex: 1;
@@ -1803,6 +1838,12 @@
     margin-bottom: var(--dl-space-space-halfunit);
     flex-direction: column;
     justify-content: center;
+  }
+  .home-button13 {
+    align-self: center;
+  }
+  .home-link2 {
+    align-self: center;
   }
   .home-text44 {
     color: rgba(12, 66, 55, 0.5);
