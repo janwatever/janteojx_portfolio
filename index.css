@@ -1395,6 +1395,16 @@
 .home-slider-button-next {
   color: var(--dl-color-scheme-green100);
 }
+@media(max-width: 1600px) {
+  .home-container04 {
+    width: auto;
+    height: 350px;
+    align-self: center;
+  }
+  .home-container08 {
+    height: 300px;
+  }
+}
 @media(max-width: 1200px) {
   .home-hero {
     width: 90%;
