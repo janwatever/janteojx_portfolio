@@ -93,6 +93,21 @@
 .footer-root-class-name6 {
   max-width: auto;
 }
+@media(max-width: 991px) {
+  .footer-footer {
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .footer-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .footer-social-bar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
 @media(max-width: 479px) {
   .footer-footer {
     height: var(--dl-size-size-medium);
