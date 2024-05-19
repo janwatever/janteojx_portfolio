@@ -498,37 +498,37 @@
   margin-right: var(--dl-space-space-threeunits);
 }
 .about-me-container5 {
-  flex: 0 0 auto;
+  flex: auto;
   width: 50%;
-  height: 100px;
+  height: 200px;
   display: flex;
   align-self: center;
   align-items: center;
   margin-left: 0px;
   justify-content: flex-start;
 }
-.about-me-link {
+.about-me-mail-link {
   display: contents;
 }
-.about-me-icon {
+.about-me-mail-icon {
   width: 50px;
   height: auto;
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.about-me-link1 {
+.about-me-itch-link {
   display: contents;
 }
-.about-me-image1 {
+.about-me-itch-icon {
   width: 50px;
   object-fit: cover;
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.about-me-link2 {
+.about-me-linkedin-link {
   display: contents;
 }
-.about-me-icon2 {
+.about-me-linkedin-icon {
   width: 50px;
   height: auto;
   margin-right: var(--dl-space-space-unit);
