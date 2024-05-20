@@ -37,17 +37,17 @@
 .footer-link {
   display: contents;
 }
-.footer-icon {
+.footer-mail-icon {
   fill: var(--dl-color-theme-base);
   width: 30px;
   height: var(--dl-size-size-small);
-  margin-right: var(--dl-space-space-twounits);
+  margin-right: 0px;
   text-decoration: none;
 }
 .footer-link1 {
   display: contents;
 }
-.footer-image {
+.footer-itch-icon {
   width: 30px;
   object-fit: cover;
   margin-right: var(--dl-space-space-twounits);
@@ -56,7 +56,7 @@
 .footer-link2 {
   display: contents;
 }
-.footer-image1 {
+.footer-artstation-icon {
   width: 30px;
   object-fit: cover;
   margin-right: var(--dl-space-space-twounits);
@@ -65,11 +65,11 @@
 .footer-link3 {
   display: contents;
 }
-.footer-icon2 {
+.footer-linkedin-icon {
   fill: var(--dl-color-theme-base);
   width: 30px;
   height: var(--dl-size-size-small);
-  margin-right: 0px;
+  margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .footer-text {
@@ -92,6 +92,14 @@
 }
 .footer-root-class-name6 {
   max-width: auto;
+}
+@media(max-width: 1600px) {
+  .footer-mail-icon {
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .footer-artstation-icon {
+    margin-right: var(--dl-space-space-twounits);
+  }
 }
 @media(max-width: 479px) {
   .footer-footer {
